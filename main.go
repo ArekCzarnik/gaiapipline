@@ -8,7 +8,7 @@ import (
 )
 
 func CreateUser(args sdk.Arguments) error {
-	log.Println("CreateUser from pipline has been started!")
+	log.Println("CreateUser from pipline 2 has been started!")
 
 	// lets sleep to simulate that we do something
 	time.Sleep(5 * time.Second)
